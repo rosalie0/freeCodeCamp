@@ -1,0 +1,6 @@
+// Setup
+let myStr = "Jello World";
+
+// Cannot do this because strings are immutable
+//myStr[0] = "H"; 
+myStr = 'Hello World';
