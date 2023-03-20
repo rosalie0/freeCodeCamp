@@ -1,0 +1,14 @@
+function sum(arr, n) {
+  // Only change code below this line
+  // TASK: Write a recursive function, sum(arr, n), that:
+  // returns the sum of the first n elements of an array arr.
+
+  // BASE CASE:
+  if (n<=0) return 0;
+  
+  // n is 'off by one' -> if n starts at 3, that means they want the first three elements
+  // return the accum (that is the recursive call) + nth element
+  return (sum(arr, n-1) + arr[n-1])
+
+  // Only change code above this line
+}

@@ -1,0 +1,8 @@
+function randomWholeNum() {
+
+  // Only change code below this line
+  // TASK: Generate and return a random whole number between 0 and 9.
+  // multiply the random decimal by 10 to move the decimal pt over,
+  // then take the floor of it to chop off everything to the right of the decimal
+  return Math.floor(Math.random()*10);
+}
