@@ -1,0 +1,13 @@
+function randomRange(myMin, myMax) {
+  // Only change code below this line
+  // TASK: Create a function called randomRange that:
+  // - takes a range myMin and myMax and 
+  // - returns a random whole number that's greater than or equal to myMin
+  // - and is less than or equal to myMax, inclusive.
+
+  // this is a number that is in the range 0 to max-min
+  const n = Math.floor(Math.random() * (myMax-myMin+1))
+  // we then use +min to offset it into the range of min to max
+  return n + myMin;
+  // Only change code above this line
+}
